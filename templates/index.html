@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+    <title>商品评价分析</title>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">商品评价分析</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">主页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<h1 class="welcome">欢迎使用商品评价分析系统！</h1>
+<form class="bs-example bs-example-form" role="form" method="get" action="/ana/">
+    <div class="row analysis">
+        <div class="col-md-6 col-lg-offset-3">
+            <div class="input-group input-group-lg">
+                <input type="url" name="target_url" class="form-control" placeholder="请输入您所要分析商品的具体网址 例：https://www.baidu.com">
+                <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">开始分析!</button>
+                    </span>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="bottom">
+    <div class="row">
+        <div class="col-md-3">
+           &nbsp; <!--111111-->
+        </div>
+        <div class="col-md-6">
+            <!--222222-->
+        </div>
+        <!-- 部分：三 -->
+        <div class="col-md-3">
+            <!--33333-->
+        </div>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

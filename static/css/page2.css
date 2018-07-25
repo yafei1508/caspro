@@ -1,0 +1,26 @@
+#main {
+    margin: auto;
+    width: 600px;
+    height: 500px;
+}
+.title{
+    text-align: center;
+    color: #00343f;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 50px;
+    padding: 10px;
+    border: dotted 5px;
+    border-color: orangered;
+}
+.score{
+    margin-top: 70px;
+    font-family: "Britannic Bold";
+    text-align: center;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #1db0b8;
+}
+.bottom{
+    margin-top: 100px;
+}

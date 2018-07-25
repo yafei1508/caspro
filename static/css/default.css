@@ -1,0 +1,16 @@
+body{
+    padding-top: 60px;
+    background-color: ghostwhite;
+}
+.welcome{
+    padding: 120px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.bottom{
+    background-color: black;
+    padding: 25px;
+    margin-top: 450px;
+    color: white;
+}

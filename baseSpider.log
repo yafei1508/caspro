@@ -1,0 +1,644 @@
+2018-07-23 14:34:30,385              ERROR   :execute failed: select id, score, update_time from score where id = ? 
+2018-07-23 14:34:46,230              ERROR   :execute failed: select id, score, update_time from score where id = ? 
+2018-07-23 14:38:01,363              ERROR   :execute failed: update score set score = ? where id = ?
+2018-07-23 14:39:45,371              ERROR   :execute failed: update score set score = %s where id = %s
+2018-07-23 14:41:01,933              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 14:43:20,160              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 14:48:19,065              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 14:49:25,569              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 14:52:10,887              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 15:01:04,925              ERROR   :execute failed: select keyword, num from keywords where id = %s
+2018-07-23 15:02:59,515              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 15:06:46,718              ERROR   :execute failed: select id, score, update_time from score where id = %d 
+2018-07-23 15:09:21,588              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 15:11:45,520              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 15:12:40,629              ERROR   :execute failed: update score set score = %d where id = %s
+2018-07-23 15:15:32,245              ERROR   :execute failed: select keyword, num from keywords where id = %s
+2018-07-23 15:19:27,075              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 15:23:16,003              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-23 15:24:44,815              ERROR   :execute failed: insert into score(id, score) values (%s, %s)
+2018-07-24 00:51:26,848              ERROR   :connectDatabase failed
+2018-07-24 02:10:11,618              INFO    :connectDatabase success
+2018-07-24 02:10:11,621              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:10:11,621              ERROR   :execute failed: select id, score, update_time from score where id = %s 
+2018-07-24 02:12:30,413              INFO    :connectDatabase success
+2018-07-24 02:12:30,420              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:12:30,420              INFO    :params: (558925594018,)
+2018-07-24 02:14:43,860              INFO    :connectDatabase success
+2018-07-24 02:14:43,863              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:14:43,863              INFO    :params: (42398966057,)
+2018-07-24 02:16:39,398              INFO    :connectDatabase success
+2018-07-24 02:16:39,401              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:16:39,401              INFO    :params: (564618187430,)
+2018-07-24 02:20:43,349              INFO    :connectDatabase success
+2018-07-24 02:20:43,353              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:20:43,353              INFO    :params: (558925594018,)
+2018-07-24 02:21:51,793              INFO    :connectDatabase success
+2018-07-24 02:21:51,795              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:21:51,796              INFO    :params: (564618187430,)
+2018-07-24 02:21:51,797              INFO    :connectDatabase success
+2018-07-24 02:21:51,799              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:21:51,799              INFO    :params: (564618187430,)
+2018-07-24 02:21:58,293              INFO    :connectDatabase success
+2018-07-24 02:21:58,294              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:21:58,294              INFO    :params: (18936252543,)
+2018-07-24 02:23:51,597              INFO    :connectDatabase success
+2018-07-24 02:23:51,598              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:23:51,598              INFO    :params: (18936252543,)
+2018-07-24 02:23:52,744              INFO    :connectDatabase success
+2018-07-24 02:23:52,745              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:23:52,745              INFO    :params: (18936252543,)
+2018-07-24 02:27:52,799              INFO    :connectDatabase success
+2018-07-24 02:27:52,800              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:27:52,800              INFO    :params: (571280074405,)
+2018-07-24 02:28:00,655              INFO    :connectDatabase success
+2018-07-24 02:28:00,659              INFO    :execute success: insert into score(id, score) values (%s, %s)
+2018-07-24 02:28:00,659              INFO    :params: (571280074405, 0.888235294117647)
+2018-07-24 02:28:00,661              INFO    :connectDatabase success
+2018-07-24 02:28:00,662              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,662              INFO    :params: (571280074405, '音质', 1.0)
+2018-07-24 02:28:00,663              INFO    :connectDatabase success
+2018-07-24 02:28:00,664              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,664              INFO    :params: (571280074405, '耳机', 0.7198430000437112)
+2018-07-24 02:28:00,665              INFO    :connectDatabase success
+2018-07-24 02:28:00,666              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,666              INFO    :params: (571280074405, '不错', 0.5876609262887942)
+2018-07-24 02:28:00,667              INFO    :connectDatabase success
+2018-07-24 02:28:00,668              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,668              INFO    :params: (571280074405, '清晰', 0.3735737441508839)
+2018-07-24 02:28:00,670              INFO    :connectDatabase success
+2018-07-24 02:28:00,670              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,670              INFO    :params: (571280074405, '方便', 0.29456491979632393)
+2018-07-24 02:28:00,671              INFO    :connectDatabase success
+2018-07-24 02:28:00,672              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,673              INFO    :params: (571280074405, '质量', 0.21828399590107903)
+2018-07-24 02:28:00,674              INFO    :connectDatabase success
+2018-07-24 02:28:00,674              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,674              INFO    :params: (571280074405, '效果', 0.21692238924882098)
+2018-07-24 02:28:00,675              INFO    :connectDatabase success
+2018-07-24 02:28:00,676              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,676              INFO    :params: (571280074405, '小巧', 0.20906459281792256)
+2018-07-24 02:28:00,677              INFO    :connectDatabase success
+2018-07-24 02:28:00,678              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,678              INFO    :params: (571280074405, '漫步者', 0.14866324987431428)
+2018-07-24 02:28:00,678              INFO    :connectDatabase success
+2018-07-24 02:28:00,680              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,680              INFO    :params: (571280074405, '外观', 0.1397643469010871)
+2018-07-24 02:28:00,681              INFO    :connectDatabase success
+2018-07-24 02:28:00,681              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,681              INFO    :params: (571280074405, '速度', 0.1351736855034456)
+2018-07-24 02:28:00,682              INFO    :connectDatabase success
+2018-07-24 02:28:00,683              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,683              INFO    :params: (571280074405, '低音', 0.13066194084603117)
+2018-07-24 02:28:00,684              INFO    :connectDatabase success
+2018-07-24 02:28:00,685              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,685              INFO    :params: (571280074405, '很棒', 0.1298193161439576)
+2018-07-24 02:28:00,685              INFO    :connectDatabase success
+2018-07-24 02:28:00,686              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,686              INFO    :params: (571280074405, '舒服', 0.12963731761197428)
+2018-07-24 02:28:00,687              INFO    :connectDatabase success
+2018-07-24 02:28:00,688              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,688              INFO    :params: (571280074405, '物流', 0.12930849156874946)
+2018-07-24 02:28:00,689              INFO    :connectDatabase success
+2018-07-24 02:28:00,689              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,690              INFO    :params: (571280074405, '精致', 0.12213336328844802)
+2018-07-24 02:28:00,690              INFO    :connectDatabase success
+2018-07-24 02:28:00,691              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,691              INFO    :params: (571280074405, '正品', 0.11988559431178827)
+2018-07-24 02:28:00,692              INFO    :connectDatabase success
+2018-07-24 02:28:00,693              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,693              INFO    :params: (571280074405, '客服', 0.11735943884145691)
+2018-07-24 02:28:00,694              INFO    :connectDatabase success
+2018-07-24 02:28:00,697              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,697              INFO    :params: (571280074405, '声音', 0.11552365447942978)
+2018-07-24 02:28:00,698              INFO    :connectDatabase success
+2018-07-24 02:28:00,698              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:28:00,699              INFO    :params: (571280074405, '店家', 0.11405009479368343)
+2018-07-24 02:30:14,239              INFO    :connectDatabase success
+2018-07-24 02:30:14,240              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:30:14,240              INFO    :params: (571280074405,)
+2018-07-24 02:30:14,242              INFO    :connectDatabase success
+2018-07-24 02:30:14,244              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:30:14,244              INFO    :params: (571280074405,)
+2018-07-24 02:30:45,562              INFO    :connectDatabase success
+2018-07-24 02:30:45,564              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:30:45,564              INFO    :params: (564618187430,)
+2018-07-24 02:30:45,566              INFO    :connectDatabase success
+2018-07-24 02:30:45,566              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:30:45,567              INFO    :params: (564618187430,)
+2018-07-24 02:31:33,718              INFO    :connectDatabase success
+2018-07-24 02:31:33,719              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:31:33,720              INFO    :params: (564618187430,)
+2018-07-24 02:31:33,721              INFO    :connectDatabase success
+2018-07-24 02:31:33,724              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:31:33,724              INFO    :params: (564618187430,)
+2018-07-24 02:32:45,744              INFO    :connectDatabase success
+2018-07-24 02:32:45,745              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:32:45,745              INFO    :params: (564618187430,)
+2018-07-24 02:32:45,746              INFO    :connectDatabase success
+2018-07-24 02:32:45,747              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:32:45,747              INFO    :params: (564618187430,)
+2018-07-24 02:32:59,436              INFO    :connectDatabase success
+2018-07-24 02:32:59,436              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:32:59,437              INFO    :params: (564618187430,)
+2018-07-24 02:32:59,438              INFO    :connectDatabase success
+2018-07-24 02:32:59,440              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:32:59,440              INFO    :params: (564618187430,)
+2018-07-24 02:33:02,817              INFO    :connectDatabase success
+2018-07-24 02:33:02,818              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:33:02,818              INFO    :params: (564618187430,)
+2018-07-24 02:33:02,820              INFO    :connectDatabase success
+2018-07-24 02:33:02,822              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:33:02,822              INFO    :params: (564618187430,)
+2018-07-24 02:33:14,637              INFO    :connectDatabase success
+2018-07-24 02:33:14,638              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:33:14,638              INFO    :params: (564618187430,)
+2018-07-24 02:33:14,640              INFO    :connectDatabase success
+2018-07-24 02:33:14,642              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:33:14,642              INFO    :params: (564618187430,)
+2018-07-24 02:33:23,767              INFO    :connectDatabase success
+2018-07-24 02:33:23,768              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:33:23,768              INFO    :params: (564618187430,)
+2018-07-24 02:33:23,769              INFO    :connectDatabase success
+2018-07-24 02:33:23,772              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:33:23,772              INFO    :params: (564618187430,)
+2018-07-24 02:34:00,856              INFO    :connectDatabase success
+2018-07-24 02:34:00,856              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:34:00,857              INFO    :params: (564618187430,)
+2018-07-24 02:34:00,858              INFO    :connectDatabase success
+2018-07-24 02:34:00,860              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:34:00,860              INFO    :params: (564618187430,)
+2018-07-24 02:35:30,902              INFO    :connectDatabase success
+2018-07-24 02:35:30,903              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:35:30,903              INFO    :params: (564618187430,)
+2018-07-24 02:35:30,904              INFO    :connectDatabase success
+2018-07-24 02:35:30,905              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:35:30,906              INFO    :params: (564618187430,)
+2018-07-24 02:36:56,227              INFO    :connectDatabase success
+2018-07-24 02:36:56,228              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:36:56,228              INFO    :params: (564618187430,)
+2018-07-24 02:36:56,230              INFO    :connectDatabase success
+2018-07-24 02:36:56,232              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:36:56,232              INFO    :params: (564618187430,)
+2018-07-24 02:38:49,253              INFO    :connectDatabase success
+2018-07-24 02:38:49,254              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:38:49,254              INFO    :params: (564618187430,)
+2018-07-24 02:38:49,256              INFO    :connectDatabase success
+2018-07-24 02:38:49,258              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:38:49,258              INFO    :params: (564618187430,)
+2018-07-24 02:39:16,402              INFO    :connectDatabase success
+2018-07-24 02:39:16,403              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:39:16,404              INFO    :params: (564618187430,)
+2018-07-24 02:39:16,405              INFO    :connectDatabase success
+2018-07-24 02:39:16,407              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:39:16,407              INFO    :params: (564618187430,)
+2018-07-24 02:40:52,106              INFO    :connectDatabase success
+2018-07-24 02:40:52,107              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:40:52,107              INFO    :params: (564618187430,)
+2018-07-24 02:40:52,109              INFO    :connectDatabase success
+2018-07-24 02:40:52,110              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:40:52,110              INFO    :params: (564618187430,)
+2018-07-24 02:41:34,465              INFO    :connectDatabase success
+2018-07-24 02:41:34,467              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:41:34,467              INFO    :params: (558925594018,)
+2018-07-24 02:41:34,468              INFO    :connectDatabase success
+2018-07-24 02:41:34,470              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:41:34,470              INFO    :params: (558925594018,)
+2018-07-24 02:43:45,804              INFO    :connectDatabase success
+2018-07-24 02:43:45,805              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:43:45,806              INFO    :params: (564618187430,)
+2018-07-24 02:43:45,807              INFO    :connectDatabase success
+2018-07-24 02:43:45,809              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:43:45,809              INFO    :params: (564618187430,)
+2018-07-24 02:44:33,008              INFO    :connectDatabase success
+2018-07-24 02:44:33,009              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:44:33,009              INFO    :params: (564618187430,)
+2018-07-24 02:44:33,011              INFO    :connectDatabase success
+2018-07-24 02:44:33,013              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 02:44:33,013              INFO    :params: (564618187430,)
+2018-07-24 02:45:50,381              INFO    :connectDatabase success
+2018-07-24 02:45:50,382              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 02:45:50,383              INFO    :params: (42398966057,)
+2018-07-24 02:46:50,007              INFO    :connectDatabase success
+2018-07-24 02:46:50,010              INFO    :execute success: insert into score(id, score) values (%s, %s)
+2018-07-24 02:46:50,010              INFO    :params: (42398966057, 0.7809293904646952)
+2018-07-24 02:46:50,011              INFO    :connectDatabase success
+2018-07-24 02:46:50,012              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,012              INFO    :params: (42398966057, '不错', 1.0)
+2018-07-24 02:46:50,013              INFO    :connectDatabase success
+2018-07-24 02:46:50,014              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,015              INFO    :params: (42398966057, '耳机', 0.7326922291334077)
+2018-07-24 02:46:50,016              INFO    :connectDatabase success
+2018-07-24 02:46:50,016              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,017              INFO    :params: (42398966057, '音质', 0.5729994597083116)
+2018-07-24 02:46:50,018              INFO    :connectDatabase success
+2018-07-24 02:46:50,019              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,019              INFO    :params: (42398966057, '感觉', 0.4003651247282533)
+2018-07-24 02:46:50,020              INFO    :connectDatabase success
+2018-07-24 02:46:50,021              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,021              INFO    :params: (42398966057, '效果', 0.2577815434194341)
+2018-07-24 02:46:50,022              INFO    :connectDatabase success
+2018-07-24 02:46:50,023              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,023              INFO    :params: (42398966057, '低音', 0.2533324433530186)
+2018-07-24 02:46:50,024              INFO    :connectDatabase success
+2018-07-24 02:46:50,025              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,025              INFO    :params: (42398966057, '煲机', 0.23761770189210646)
+2018-07-24 02:46:50,026              INFO    :connectDatabase success
+2018-07-24 02:46:50,027              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,028              INFO    :params: (42398966057, '声音', 0.20432131818141036)
+2018-07-24 02:46:50,029              INFO    :connectDatabase success
+2018-07-24 02:46:50,030              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,030              INFO    :params: (42398966057, '有点', 0.19803235834481508)
+2018-07-24 02:46:50,031              INFO    :connectDatabase success
+2018-07-24 02:46:50,032              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,032              INFO    :params: (42398966057, '物流', 0.12922140304827576)
+2018-07-24 02:46:50,033              INFO    :connectDatabase success
+2018-07-24 02:46:50,034              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,034              INFO    :params: (42398966057, '人声', 0.11556028425536449)
+2018-07-24 02:46:50,035              INFO    :connectDatabase success
+2018-07-24 02:46:50,035              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,036              INFO    :params: (42398966057, '隔音', 0.10551033448488084)
+2018-07-24 02:46:50,037              INFO    :connectDatabase success
+2018-07-24 02:46:50,037              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,038              INFO    :params: (42398966057, '一般', 0.1031581598636266)
+2018-07-24 02:46:50,039              INFO    :connectDatabase success
+2018-07-24 02:46:50,040              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,040              INFO    :params: (42398966057, '垃圾', 0.09516328982049935)
+2018-07-24 02:46:50,041              INFO    :connectDatabase success
+2018-07-24 02:46:50,042              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,042              INFO    :params: (42398966057, '客服', 0.08918297357417894)
+2018-07-24 02:46:50,043              INFO    :connectDatabase success
+2018-07-24 02:46:50,044              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,044              INFO    :params: (42398966057, '高音', 0.08906818072485147)
+2018-07-24 02:46:50,045              INFO    :connectDatabase success
+2018-07-24 02:46:50,046              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,046              INFO    :params: (42398966057, '评价', 0.07878777439680094)
+2018-07-24 02:46:50,047              INFO    :connectDatabase success
+2018-07-24 02:46:50,048              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,048              INFO    :params: (42398966057, '很棒', 0.07445474743875499)
+2018-07-24 02:46:50,049              INFO    :connectDatabase success
+2018-07-24 02:46:50,050              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,050              INFO    :params: (42398966057, '听诊器', 0.0738055222818089)
+2018-07-24 02:46:50,051              INFO    :connectDatabase success
+2018-07-24 02:46:50,052              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 02:46:50,052              INFO    :params: (42398966057, '质量', 0.07150085757640676)
+2018-07-24 03:51:52,399              INFO    :connectDatabase success
+2018-07-24 03:51:52,401              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 03:51:52,402              INFO    :params: (571280074405,)
+2018-07-24 03:51:52,403              INFO    :connectDatabase success
+2018-07-24 03:51:52,406              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 03:51:52,406              INFO    :params: (571280074405,)
+2018-07-24 03:52:01,011              INFO    :connectDatabase success
+2018-07-24 03:52:01,013              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 03:52:01,013              INFO    :params: (571280074405,)
+2018-07-24 03:52:01,015              INFO    :connectDatabase success
+2018-07-24 03:52:01,016              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 03:52:01,016              INFO    :params: (571280074405,)
+2018-07-24 03:52:07,456              INFO    :connectDatabase success
+2018-07-24 03:52:07,457              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 03:52:07,458              INFO    :params: (18936252543,)
+2018-07-24 03:53:03,495              INFO    :connectDatabase success
+2018-07-24 03:53:03,499              INFO    :execute success: insert into score(id, score) values (%s, %s)
+2018-07-24 03:53:03,499              INFO    :params: (18936252543, 0.758809234507898)
+2018-07-24 03:53:03,501              INFO    :connectDatabase success
+2018-07-24 03:53:03,502              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,502              INFO    :params: (18936252543, '不错', 1.0)
+2018-07-24 03:53:03,503              INFO    :connectDatabase success
+2018-07-24 03:53:03,505              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,505              INFO    :params: (18936252543, '耳机', 0.6135782836499667)
+2018-07-24 03:53:03,506              INFO    :connectDatabase success
+2018-07-24 03:53:03,507              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,507              INFO    :params: (18936252543, '音质', 0.47641966878612124)
+2018-07-24 03:53:03,508              INFO    :connectDatabase success
+2018-07-24 03:53:03,509              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,509              INFO    :params: (18936252543, '感觉', 0.19531901347437106)
+2018-07-24 03:53:03,510              INFO    :connectDatabase success
+2018-07-24 03:53:03,511              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,511              INFO    :params: (18936252543, '有点', 0.13576772143282656)
+2018-07-24 03:53:03,512              INFO    :connectDatabase success
+2018-07-24 03:53:03,514              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,514              INFO    :params: (18936252543, '效果', 0.12008300035461224)
+2018-07-24 03:53:03,515              INFO    :connectDatabase success
+2018-07-24 03:53:03,516              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,516              INFO    :params: (18936252543, '低音', 0.11620075320230061)
+2018-07-24 03:53:03,517              INFO    :connectDatabase success
+2018-07-24 03:53:03,518              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,518              INFO    :params: (18936252543, '正品', 0.10211751235137297)
+2018-07-24 03:53:03,519              INFO    :connectDatabase success
+2018-07-24 03:53:03,520              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,520              INFO    :params: (18936252543, '声音', 0.09705804879644574)
+2018-07-24 03:53:03,521              INFO    :connectDatabase success
+2018-07-24 03:53:03,522              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,522              INFO    :params: (18936252543, '物流', 0.08669596560823412)
+2018-07-24 03:53:03,523              INFO    :connectDatabase success
+2018-07-24 03:53:03,524              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,524              INFO    :params: (18936252543, '耳朵', 0.08474576779728664)
+2018-07-24 03:53:03,526              INFO    :connectDatabase success
+2018-07-24 03:53:03,526              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,527              INFO    :params: (18936252543, '煲机', 0.08377131370416444)
+2018-07-24 03:53:03,528              INFO    :connectDatabase success
+2018-07-24 03:53:03,529              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,529              INFO    :params: (18936252543, '很棒', 0.0710448359387364)
+2018-07-24 03:53:03,530              INFO    :connectDatabase success
+2018-07-24 03:53:03,531              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,531              INFO    :params: (18936252543, '一般', 0.06875030532637373)
+2018-07-24 03:53:03,532              INFO    :connectDatabase success
+2018-07-24 03:53:03,533              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,533              INFO    :params: (18936252543, '舒服', 0.0653100740459423)
+2018-07-24 03:53:03,534              INFO    :connectDatabase success
+2018-07-24 03:53:03,535              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,535              INFO    :params: (18936252543, '人声', 0.061315276476022244)
+2018-07-24 03:53:03,536              INFO    :connectDatabase success
+2018-07-24 03:53:03,537              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,537              INFO    :params: (18936252543, '耳塞', 0.051442079141392184)
+2018-07-24 03:53:03,538              INFO    :connectDatabase success
+2018-07-24 03:53:03,539              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,539              INFO    :params: (18936252543, '质量', 0.05098469239681658)
+2018-07-24 03:53:03,540              INFO    :connectDatabase success
+2018-07-24 03:53:03,541              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,541              INFO    :params: (18936252543, '音乐', 0.04817916234539207)
+2018-07-24 03:53:03,542              INFO    :connectDatabase success
+2018-07-24 03:53:03,544              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 03:53:03,544              INFO    :params: (18936252543, '性价比', 0.04768502093008099)
+2018-07-24 03:53:39,489              INFO    :connectDatabase success
+2018-07-24 03:53:39,490              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 03:53:39,490              INFO    :params: (42398966057,)
+2018-07-24 03:53:39,492              INFO    :connectDatabase success
+2018-07-24 03:53:39,493              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 03:53:39,493              INFO    :params: (42398966057,)
+2018-07-24 05:05:01,692              INFO    :connectDatabase success
+2018-07-24 05:05:01,695              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:05:01,695              INFO    :params: (18936252543,)
+2018-07-24 05:05:01,696              INFO    :connectDatabase success
+2018-07-24 05:05:01,699              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:05:01,699              INFO    :params: (18936252543,)
+2018-07-24 05:05:13,255              INFO    :connectDatabase success
+2018-07-24 05:05:13,257              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:05:13,257              INFO    :params: (558925594018,)
+2018-07-24 05:05:13,258              INFO    :connectDatabase success
+2018-07-24 05:05:13,259              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:05:13,260              INFO    :params: (558925594018,)
+2018-07-24 05:05:19,868              INFO    :connectDatabase success
+2018-07-24 05:05:19,869              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:05:19,869              INFO    :params: (571280074405,)
+2018-07-24 05:05:19,871              INFO    :connectDatabase success
+2018-07-24 05:05:19,872              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:05:19,873              INFO    :params: (571280074405,)
+2018-07-24 05:05:37,268              INFO    :connectDatabase success
+2018-07-24 05:05:37,270              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:05:37,270              INFO    :params: (564618187430,)
+2018-07-24 05:05:37,272              INFO    :connectDatabase success
+2018-07-24 05:05:37,273              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:05:37,273              INFO    :params: (564618187430,)
+2018-07-24 05:10:49,566              INFO    :connectDatabase success
+2018-07-24 05:10:49,568              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:10:49,568              INFO    :params: (526349263514,)
+2018-07-24 05:12:25,176              INFO    :connectDatabase success
+2018-07-24 05:12:25,177              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:12:25,177              INFO    :params: (526349263514,)
+2018-07-24 05:14:27,365              INFO    :connectDatabase success
+2018-07-24 05:14:27,366              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:14:27,366              INFO    :params: (526349263514,)
+2018-07-24 05:16:53,293              INFO    :connectDatabase success
+2018-07-24 05:16:53,295              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:16:53,296              INFO    :params: (564618187430,)
+2018-07-24 05:16:53,298              INFO    :connectDatabase success
+2018-07-24 05:16:53,299              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:16:53,300              INFO    :params: (564618187430,)
+2018-07-24 05:17:05,574              INFO    :connectDatabase success
+2018-07-24 05:17:05,576              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:17:05,576              INFO    :params: (526349263514,)
+2018-07-24 05:18:08,306              INFO    :connectDatabase success
+2018-07-24 05:18:08,308              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:18:08,308              INFO    :params: (531518449017,)
+2018-07-24 05:18:39,860              INFO    :connectDatabase success
+2018-07-24 05:18:39,863              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:18:39,864              INFO    :params: (569551367818,)
+2018-07-24 05:19:22,266              INFO    :connectDatabase success
+2018-07-24 05:19:22,268              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:19:22,268              INFO    :params: (569551367818,)
+2018-07-24 05:20:06,420              INFO    :connectDatabase success
+2018-07-24 05:20:06,424              INFO    :execute success: insert into score(id, score) values (%s, %s)
+2018-07-24 05:20:06,424              INFO    :params: (569551367818, 0.7563395810363837)
+2018-07-24 05:20:06,425              INFO    :connectDatabase success
+2018-07-24 05:20:06,427              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,427              INFO    :params: (569551367818, '音质', 1.0)
+2018-07-24 05:20:06,428              INFO    :connectDatabase success
+2018-07-24 05:20:06,430              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,430              INFO    :params: (569551367818, '不错', 0.946941502967242)
+2018-07-24 05:20:06,431              INFO    :connectDatabase success
+2018-07-24 05:20:06,432              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,432              INFO    :params: (569551367818, '耳机', 0.776161247350132)
+2018-07-24 05:20:06,434              INFO    :connectDatabase success
+2018-07-24 05:20:06,436              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,437              INFO    :params: (569551367818, '质量', 0.34949100477813816)
+2018-07-24 05:20:06,438              INFO    :connectDatabase success
+2018-07-24 05:20:06,439              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,439              INFO    :params: (569551367818, '清晰', 0.1874206975860519)
+2018-07-24 05:20:06,440              INFO    :connectDatabase success
+2018-07-24 05:20:06,441              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,441              INFO    :params: (569551367818, '跑步', 0.14656012011516759)
+2018-07-24 05:20:06,442              INFO    :connectDatabase success
+2018-07-24 05:20:06,443              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,443              INFO    :params: (569551367818, '声音', 0.1426989434591547)
+2018-07-24 05:20:06,445              INFO    :connectDatabase success
+2018-07-24 05:20:06,447              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,447              INFO    :params: (569551367818, '杂音', 0.1421683485159942)
+2018-07-24 05:20:06,448              INFO    :connectDatabase success
+2018-07-24 05:20:06,449              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,449              INFO    :params: (569551367818, '电流', 0.13436326024017803)
+2018-07-24 05:20:06,450              INFO    :connectDatabase success
+2018-07-24 05:20:06,451              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,451              INFO    :params: (569551367818, '效果', 0.13256600595971857)
+2018-07-24 05:20:06,453              INFO    :connectDatabase success
+2018-07-24 05:20:06,454              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,454              INFO    :params: (569551367818, '物流', 0.11172437602801023)
+2018-07-24 05:20:06,455              INFO    :connectDatabase success
+2018-07-24 05:20:06,456              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,456              INFO    :params: (569551367818, '感觉', 0.10970154899234104)
+2018-07-24 05:20:06,458              INFO    :connectDatabase success
+2018-07-24 05:20:06,459              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,459              INFO    :params: (569551367818, '方便', 0.10922507251025144)
+2018-07-24 05:20:06,460              INFO    :connectDatabase success
+2018-07-24 05:20:06,461              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,461              INFO    :params: (569551367818, '时候', 0.09839375207204967)
+2018-07-24 05:20:06,462              INFO    :connectDatabase success
+2018-07-24 05:20:06,463              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,463              INFO    :params: (569551367818, '舒服', 0.09672829774110271)
+2018-07-24 05:20:06,464              INFO    :connectDatabase success
+2018-07-24 05:20:06,465              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,465              INFO    :params: (569551367818, '耳朵', 0.09216363652305008)
+2018-07-24 05:20:06,466              INFO    :connectDatabase success
+2018-07-24 05:20:06,467              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,467              INFO    :params: (569551367818, '有点', 0.09153655827096845)
+2018-07-24 05:20:06,468              INFO    :connectDatabase success
+2018-07-24 05:20:06,470              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,470              INFO    :params: (569551367818, '客服', 0.09006048341714529)
+2018-07-24 05:20:06,472              INFO    :connectDatabase success
+2018-07-24 05:20:06,473              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,473              INFO    :params: (569551367818, '颜色', 0.08285536818632976)
+2018-07-24 05:20:06,474              INFO    :connectDatabase success
+2018-07-24 05:20:06,475              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,475              INFO    :params: (569551367818, '很棒', 0.08107550997030252)
+2018-07-24 05:20:06,476              INFO    :connectDatabase success
+2018-07-24 05:20:06,477              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,477              INFO    :params: (569551367818, '价格', 0.08009435758236198)
+2018-07-24 05:20:06,478              INFO    :connectDatabase success
+2018-07-24 05:20:06,479              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,479              INFO    :params: (569551367818, '发货', 0.06612986627739458)
+2018-07-24 05:20:06,480              INFO    :connectDatabase success
+2018-07-24 05:20:06,481              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,481              INFO    :params: (569551367818, '右耳', 0.06535825505218922)
+2018-07-24 05:20:06,483              INFO    :connectDatabase success
+2018-07-24 05:20:06,484              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,484              INFO    :params: (569551367818, '卖家', 0.06514584948762822)
+2018-07-24 05:20:06,485              INFO    :connectDatabase success
+2018-07-24 05:20:06,486              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,486              INFO    :params: (569551367818, '外观', 0.0635397325231659)
+2018-07-24 05:20:06,487              INFO    :connectDatabase success
+2018-07-24 05:20:06,488              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,488              INFO    :params: (569551367818, '态度', 0.061144308258942126)
+2018-07-24 05:20:06,489              INFO    :connectDatabase success
+2018-07-24 05:20:06,490              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,490              INFO    :params: (569551367818, '一般', 0.060473820783646215)
+2018-07-24 05:20:06,492              INFO    :connectDatabase success
+2018-07-24 05:20:06,492              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,492              INFO    :params: (569551367818, '服务态度', 0.06000391586234247)
+2018-07-24 05:20:06,493              INFO    :connectDatabase success
+2018-07-24 05:20:06,494              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,494              INFO    :params: (569551367818, '漫步者', 0.05682260233275785)
+2018-07-24 05:20:06,495              INFO    :connectDatabase success
+2018-07-24 05:20:06,496              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:20:06,496              INFO    :params: (569551367818, '音乐', 0.056701434834489306)
+2018-07-24 05:20:46,941              INFO    :connectDatabase success
+2018-07-24 05:20:46,942              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:20:46,943              INFO    :params: (569551367818,)
+2018-07-24 05:20:46,944              INFO    :connectDatabase success
+2018-07-24 05:20:46,946              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:20:46,946              INFO    :params: (569551367818,)
+2018-07-24 05:20:56,901              INFO    :connectDatabase success
+2018-07-24 05:20:56,902              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:20:56,902              INFO    :params: (531518449017,)
+2018-07-24 05:21:41,887              INFO    :connectDatabase success
+2018-07-24 05:21:41,890              INFO    :execute success: insert into score(id, score) values (%s, %s)
+2018-07-24 05:21:41,890              INFO    :params: (531518449017, 0.7789921068609593)
+2018-07-24 05:21:41,892              INFO    :connectDatabase success
+2018-07-24 05:21:41,893              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,893              INFO    :params: (531518449017, '不错', 1.0)
+2018-07-24 05:21:41,894              INFO    :connectDatabase success
+2018-07-24 05:21:41,895              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,895              INFO    :params: (531518449017, '耳机', 0.9237018877630818)
+2018-07-24 05:21:41,896              INFO    :connectDatabase success
+2018-07-24 05:21:41,897              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,897              INFO    :params: (531518449017, '音质', 0.7416531587269635)
+2018-07-24 05:21:41,898              INFO    :connectDatabase success
+2018-07-24 05:21:41,899              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,899              INFO    :params: (531518449017, '很好', 0.2775318059357751)
+2018-07-24 05:21:41,900              INFO    :connectDatabase success
+2018-07-24 05:21:41,901              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,901              INFO    :params: (531518449017, '质量', 0.22347969746832214)
+2018-07-24 05:21:41,902              INFO    :connectDatabase success
+2018-07-24 05:21:41,904              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,904              INFO    :params: (531518449017, '感觉', 0.20416105074722418)
+2018-07-24 05:21:41,906              INFO    :connectDatabase success
+2018-07-24 05:21:41,907              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,907              INFO    :params: (531518449017, '声音', 0.19855589537348137)
+2018-07-24 05:21:41,908              INFO    :connectDatabase success
+2018-07-24 05:21:41,909              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,909              INFO    :params: (531518449017, '客服', 0.19375365721219368)
+2018-07-24 05:21:41,910              INFO    :connectDatabase success
+2018-07-24 05:21:41,911              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,911              INFO    :params: (531518449017, '物流', 0.17475316365762586)
+2018-07-24 05:21:41,912              INFO    :connectDatabase success
+2018-07-24 05:21:41,914              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,914              INFO    :params: (531518449017, '有点', 0.16444142173458576)
+2018-07-24 05:21:41,915              INFO    :connectDatabase success
+2018-07-24 05:21:41,916              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,916              INFO    :params: (531518449017, '效果', 0.16094107557641968)
+2018-07-24 05:21:41,917              INFO    :connectDatabase success
+2018-07-24 05:21:41,918              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,918              INFO    :params: (531518449017, '耳朵', 0.14850564189539314)
+2018-07-24 05:21:41,919              INFO    :connectDatabase success
+2018-07-24 05:21:41,920              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,920              INFO    :params: (531518449017, '外观', 0.13310783640160548)
+2018-07-24 05:21:41,921              INFO    :connectDatabase success
+2018-07-24 05:21:41,922              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,922              INFO    :params: (531518449017, '清晰', 0.12718649908422555)
+2018-07-24 05:21:41,923              INFO    :connectDatabase success
+2018-07-24 05:21:41,924              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,924              INFO    :params: (531518449017, '方便', 0.12599324067908996)
+2018-07-24 05:21:41,925              INFO    :connectDatabase success
+2018-07-24 05:21:41,926              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,926              INFO    :params: (531518449017, '跑步', 0.12354324988961385)
+2018-07-24 05:21:41,927              INFO    :connectDatabase success
+2018-07-24 05:21:41,928              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,928              INFO    :params: (531518449017, '电量', 0.11716292760718587)
+2018-07-24 05:21:41,929              INFO    :connectDatabase success
+2018-07-24 05:21:41,930              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,930              INFO    :params: (531518449017, '手机', 0.11613043915462061)
+2018-07-24 05:21:41,932              INFO    :connectDatabase success
+2018-07-24 05:21:41,932              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,933              INFO    :params: (531518449017, '问题', 0.11487155762132635)
+2018-07-24 05:21:41,934              INFO    :connectDatabase success
+2018-07-24 05:21:41,934              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,934              INFO    :params: (531518449017, '时候', 0.11279999707881931)
+2018-07-24 05:21:41,935              INFO    :connectDatabase success
+2018-07-24 05:21:41,936              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,936              INFO    :params: (531518449017, '价格', 0.10257181415988606)
+2018-07-24 05:21:41,937              INFO    :connectDatabase success
+2018-07-24 05:21:41,938              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,938              INFO    :params: (531518449017, '评价', 0.09398129360867719)
+2018-07-24 05:21:41,939              INFO    :connectDatabase success
+2018-07-24 05:21:41,940              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,940              INFO    :params: (531518449017, '性价比', 0.0936176948355283)
+2018-07-24 05:21:41,941              INFO    :connectDatabase success
+2018-07-24 05:21:41,942              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,942              INFO    :params: (531518449017, '舒服', 0.0879976154877421)
+2018-07-24 05:21:41,943              INFO    :connectDatabase success
+2018-07-24 05:21:41,944              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,944              INFO    :params: (531518449017, '音量', 0.07994244143475338)
+2018-07-24 05:21:41,945              INFO    :connectDatabase success
+2018-07-24 05:21:41,946              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,946              INFO    :params: (531518449017, '很棒', 0.07607240558254286)
+2018-07-24 05:21:41,947              INFO    :connectDatabase success
+2018-07-24 05:21:41,947              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,947              INFO    :params: (531518449017, '音乐', 0.07151170316793888)
+2018-07-24 05:21:41,948              INFO    :connectDatabase success
+2018-07-24 05:21:41,949              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,949              INFO    :params: (531518449017, '态度', 0.07085747318530053)
+2018-07-24 05:21:41,950              INFO    :connectDatabase success
+2018-07-24 05:21:41,951              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,951              INFO    :params: (531518449017, '小时', 0.07003112647432984)
+2018-07-24 05:21:41,952              INFO    :connectDatabase success
+2018-07-24 05:21:41,953              INFO    :execute success: insert into keywords(sid, keyword, num) values (%s,%s,%s)
+2018-07-24 05:21:41,953              INFO    :params: (531518449017, '时间', 0.070021377277272)
+2018-07-24 05:32:15,511              INFO    :connectDatabase success
+2018-07-24 05:32:15,513              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:32:15,513              INFO    :params: (564618187430,)
+2018-07-24 05:32:15,515              INFO    :connectDatabase success
+2018-07-24 05:32:15,516              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:32:15,516              INFO    :params: (564618187430,)
+2018-07-24 05:33:35,752              INFO    :connectDatabase success
+2018-07-24 05:33:35,755              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:33:35,755              INFO    :params: (564618187430,)
+2018-07-24 05:33:35,757              INFO    :connectDatabase success
+2018-07-24 05:33:35,758              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:33:35,758              INFO    :params: (564618187430,)
+2018-07-24 05:34:31,778              INFO    :connectDatabase success
+2018-07-24 05:34:31,781              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:34:31,781              INFO    :params: (564618187430,)
+2018-07-24 05:34:31,783              INFO    :connectDatabase success
+2018-07-24 05:34:31,785              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:34:31,785              INFO    :params: (564618187430,)
+2018-07-24 05:42:43,221              INFO    :connectDatabase success
+2018-07-24 05:42:43,223              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:42:43,223              INFO    :params: (564618187430,)
+2018-07-24 05:42:43,224              INFO    :connectDatabase success
+2018-07-24 05:42:43,226              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:42:43,226              INFO    :params: (564618187430,)
+2018-07-24 05:43:20,621              INFO    :connectDatabase success
+2018-07-24 05:43:20,622              INFO    :execute success: select id, score, update_time from score where id = %s 
+2018-07-24 05:43:20,622              INFO    :params: (564618187430,)
+2018-07-24 05:43:20,624              INFO    :connectDatabase success
+2018-07-24 05:43:20,625              INFO    :execute success: select keyword, num from keywords where sid = %s
+2018-07-24 05:43:20,625              INFO    :params: (564618187430,)
